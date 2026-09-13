@@ -1,0 +1,102 @@
+{
+  "header": {
+    "title": "এগ্রোভিশন কোর",
+    "node": "ফিল্ড নোড ০১",
+    "location": "টেরেস ব্লক A",
+    "live_stream": "লাইভ লোরা স্ট্রিম",
+    "last_packet": "শেষ প্যাকেট: {{count}} সেকেন্ড আগে",
+    "offline": "অফলাইন / প্যাকেট নেই",
+    "simulation": "সিমুলেশন মোড",
+    "rssi": "আরএসএসআই",
+    "language": "ভাষা"
+  },
+  "telemetry": {
+    "upper_moisture": "উপরিভাগের আর্দ্রতা",
+    "lower_moisture": "নিম্নভাগের আর্দ্রতা",
+    "temperature": "তাপমাত্রা",
+    "humidity": "আর্দ্রতা",
+    "plant_stress_score": "উদ্ভিদের স্ট্রেস স্কোর",
+    "no_data": "কোনো তথ্য নেই",
+    "upper_root_zone": "উপরিভাগের শিকড় অঞ্চল (0-15cm)",
+    "lower_root_zone": "নিম্নভাগের শিকড় অঞ্চল (15-30cm)"
+  },
+  "ml": {
+    "drying_forecast": "মাটি শুকানোর পূর্বাভাস",
+    "depletion_rate": "হ্রাসের হার",
+    "time_to_dry": "শুকানোর সময়",
+    "until_critical": "সংকটজনক মাত্রা পর্যন্ত",
+    "drought_vulnerability": "খরা প্রবণতা",
+    "prescriptive_advisory": "পরামর্শ",
+    "optimal": "উপযুক্ত",
+    "warning": "সতর্কতা",
+    "critical_drought": "গম্ভীর খরা"
+  },
+  "vision": {
+    "diagnostic_studio": "এআই পাতা রোগ নির্ণয় স্টুডিও",
+    "camera_mode": "ক্যামেরা মোড",
+    "file_upload_mode": "ফাইল আপলোড",
+    "take_photo": "পাতার ছবি তুলুন",
+    "drag_drop": "ছবি এখানে আনুন বা নির্বাচন করুন",
+    "select_file": "ফাইল নির্বাচন করুন",
+    "filename": "ফাইলের নাম",
+    "file_size": "ফাইলের আকার",
+    "dimensions": "মাত্রা",
+    "diagnose_button": "রোগ নির্ণয় করুন",
+    "analyzing": "পাতার বিশ্লেষণ করা হচ্ছে...",
+    "high_confidence": "উচ্চ আত্মবিশ্বাস",
+    "moderate_confidence": "মাঝারি আত্মবিশ্বাস",
+    "manual_review": "ম্যানুয়াল পর্যালোচনা প্রয়োজন",
+    "disease": "রোগ নির্ণয়",
+    "confidence": "আত্মবিশ্বাস",
+    "pathogen": "রোগজীবাণু বিভাগ",
+    "treatment": "সুপারিশকৃত চিকিৎসা",
+    "advisory": "সেচ পরামর্শ"
+  },
+  "irrigation": {
+    "sluice_gate_control": "স্লুইস গেট নিয়ন্ত্রণ",
+    "auto_predictive": "অটো-প্রেডিক্টিভ মোড",
+    "manual_override": "ম্যানুয়াল ওভাররাইড",
+    "duration_label": "গেটের সময়সীমা (সেকেন্ড)",
+    "servo_angle": "সার্ভো কোণ: 90°",
+    "actuate_button": "গেট খুলুন",
+    "actuating": "গেট সিগন্যাল পাঠানো হচ্ছে...",
+    "status_closed": "বন্ধ",
+    "status_opening": "খুলছে",
+    "status_open": "খোলা",
+    "status_closing": "বন্ধ হচ্ছে",
+    "status_failed": "ব্যর্থ",
+    "audit_trail": "সেচ অডিট ইতিহাস",
+    "no_events": "কোনো ঘটনা রেকর্ড করা হয়নি।",
+    "col_timestamp": "সময়",
+    "col_source": "উৎস",
+    "col_angle": "কোণ",
+    "col_duration": "সময়সীমা",
+    "col_status": "অবস্থা"
+  },
+  "charts": {
+    "runoff_gradient": "ঢালের পানি প্রবাহ",
+    "weather_stress": "আবহাওয়া ও উদ্ভিদের চাপ",
+    "upper_moisture": "উপরিভাগের আর্দ্রতা (%)",
+    "lower_moisture": "নিম্নভাগের আর্দ্রতা (%)",
+    "temp": "তাপমাত্রা (°C)",
+    "humidity": "আর্দ্রতা (%)",
+    "stress_score": "স্ট্রেস স্কোর",
+    "waiting_data": "লাইভ তথ্যের জন্য অপেক্ষা করা হচ্ছে..."
+  },
+  "chatbot": {
+    "title": "এগ্রোবট কৃষি বিশেষজ্ঞ",
+    "subtitle": "মাঠ সহকারী",
+    "placeholder": "মাটি বা সেচ সম্পর্কে জিজ্ঞাসা করুন...",
+    "send": "পাঠান",
+    "speech_tooltip": "ভয়েস ইনপুট",
+    "telemetry_attached": "প্রকৃত তথ্য সংযুক্ত",
+    "telemetry_offline": "তথ্য অফলাইন"
+  },
+  "common": {
+    "backend_offline": "ব্যাকএন্ড অফলাইন",
+    "connecting": "সংযুক্ত করা হচ্ছে...",
+    "error": "ত্রুটি",
+    "success": "সফল",
+    "retry": "পুনরায় চেষ্টা করুন"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "header": {
+    "title": "AGROVISION CORE",
+    "node": "Field Node 01",
+    "location": "Terrace Block A",
+    "live_stream": "LIVE LORA STREAM",
+    "last_packet": "Last Packet: {{count}}s ago",
+    "offline": "OFFLINE / NO RECENT PACKETS",
+    "simulation": "SIMULATION MODE",
+    "rssi": "RSSI",
+    "language": "Language"
+  },
+  "telemetry": {
+    "upper_moisture": "Upper Terrace Moisture",
+    "lower_moisture": "Lower Terrace Moisture",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "plant_stress_score": "Plant Stress Score",
+    "no_data": "NO DATA",
+    "upper_root_zone": "Upper Root Zone (0-15cm)",
+    "lower_root_zone": "Lower Root Zone (15-30cm)"
+  },
+  "ml": {
+    "drying_forecast": "Soil Depletion Drying Forecast",
+    "depletion_rate": "Depletion Rate",
+    "time_to_dry": "Time To Dry",
+    "until_critical": "until critical moisture threshold",
+    "drought_vulnerability": "Drought Vulnerability",
+    "prescriptive_advisory": "Prescriptive Advisory",
+    "optimal": "OPTIMAL",
+    "warning": "WARNING",
+    "critical_drought": "CRITICAL DROUGHT"
+  },
+  "vision": {
+    "diagnostic_studio": "AI Leaf Diagnostic Studio",
+    "camera_mode": "Camera Mode",
+    "file_upload_mode": "File Upload",
+    "take_photo": "Capture Leaf Photo",
+    "drag_drop": "Drag & drop leaf photo here, or click to browse",
+    "select_file": "Select File",
+    "filename": "Filename",
+    "file_size": "File Size",
+    "dimensions": "Dimensions",
+    "diagnose_button": "Diagnose Leaf Health",
+    "analyzing": "Analyzing leaf pathology...",
+    "high_confidence": "HIGH CONFIDENCE",
+    "moderate_confidence": "MODERATE CONFIDENCE",
+    "manual_review": "NEEDS MANUAL REVIEW",
+    "disease": "DIAGNOSIS",
+    "confidence": "CONFIDENCE",
+    "pathogen": "PATHOGEN CATEGORY",
+    "treatment": "RECOMMENDED TREATMENT",
+    "advisory": "IRRIGATION ADVISORY"
+  },
+  "irrigation": {
+    "sluice_gate_control": "Sluice Gate Actuation",
+    "auto_predictive": "AUTO-PREDICTIVE MODE",
+    "manual_override": "MANUAL OVERRIDE",
+    "duration_label": "Sluice Duration (seconds)",
+    "servo_angle": "Servo Angle: 90°",
+    "actuate_button": "OPEN SLUICE GATE",
+    "actuating": "Sending Actuation Signal...",
+    "status_closed": "CLOSED",
+    "status_opening": "OPENING",
+    "status_open": "OPEN",
+    "status_closing": "CLOSING",
+    "status_failed": "FAILED",
+    "audit_trail": "Irrigation Audit Trail",
+    "no_events": "No irrigation events recorded yet.",
+    "col_timestamp": "Timestamp",
+    "col_source": "Trigger Source",
+    "col_angle": "Servo Angle",
+    "col_duration": "Duration",
+    "col_status": "Execution Status"
+  },
+  "charts": {
+    "runoff_gradient": "Slope Runoff Gradient",
+    "weather_stress": "Weather & Plant Stress Correlation",
+    "upper_moisture": "Upper Moisture (%)",
+    "lower_moisture": "Lower Moisture (%)",
+    "temp": "Temperature (°C)",
+    "humidity": "Humidity (%)",
+    "stress_score": "Stress Score",
+    "waiting_data": "Waiting for live telemetry points from backend..."
+  },
+  "chatbot": {
+    "title": "AgroBot AI Agronomist",
+    "subtitle": "Context-aware field assistant",
+    "placeholder": "Ask AgroBot about soil, crops, or irrigation...",
+    "send": "Send",
+    "speech_tooltip": "Voice input (Speak now)",
+    "telemetry_attached": "Real Telemetry Attached",
+    "telemetry_offline": "Telemetry Offline - Limited Context"
+  },
+  "common": {
+    "backend_offline": "BACKEND OFFLINE",
+    "connecting": "Connecting to Field Node...",
+    "error": "Error",
+    "success": "Success",
+    "retry": "Retry"
+  }
+}

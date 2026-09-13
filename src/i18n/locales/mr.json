@@ -1,0 +1,102 @@
+{
+  "header": {
+    "title": "ऍग्रोव्हिजन कोर",
+    "node": "फिल्ड नोड 01",
+    "location": "टेरेस ब्लॉक A",
+    "live_stream": "लाइव्ह लोरा स्ट्रीम",
+    "last_packet": "शेवटचे पॅकेट: {{count}} सेकंदांपूर्वी",
+    "offline": "ऑफलाइन / पॅकेट नाही",
+    "simulation": "सिम्युलेशन मोड",
+    "rssi": "आरएसएसआय",
+    "language": "भाषा"
+  },
+  "telemetry": {
+    "upper_moisture": "वरच्या थरातील ओलावा",
+    "lower_moisture": "खालच्या थरातील ओलावा",
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "plant_stress_score": "पिकाचा तणाव स्कोर",
+    "no_data": "माहिती उपलब्ध नाही",
+    "upper_root_zone": "वरचे मूळ क्षेत्र (0-15 सेमी)",
+    "lower_root_zone": "खालचे मूळ क्षेत्र (15-30 सेमी)"
+  },
+  "ml": {
+    "drying_forecast": "माती सुकण्याचा अंदाज",
+    "depletion_rate": "घटीचा दर",
+    "time_to_dry": "सुकण्यासाठी लागणारा वेळ",
+    "until_critical": "क्रिटिकल मर्यादेपर्यंत",
+    "drought_vulnerability": "दुष्काळ संवेदनशीलता",
+    "prescriptive_advisory": "सल्ला",
+    "optimal": "उत्कृष्ट",
+    "warning": "इशारा",
+    "critical_drought": "गंभीर दुष्काळ"
+  },
+  "vision": {
+    "diagnostic_studio": "एआय पान रोग निदान स्टुडिओ",
+    "camera_mode": "कॅमेरा मोड",
+    "file_upload_mode": "फाइल अपलोड",
+    "take_photo": "पानाचा फोटो घ्या",
+    "drag_drop": "फोटो येथे ड्रॅग करा किंवा निवडा",
+    "select_file": "फाइल निवडा",
+    "filename": "फाइलचे नाव",
+    "file_size": "फाइलचा आकार",
+    "dimensions": "आकारमान",
+    "diagnose_button": "निदान करा",
+    "analyzing": "पानाचे विश्लेषण सुरू आहे...",
+    "high_confidence": "उच्च विश्वासार्हता",
+    "moderate_confidence": "मध्यम विश्वासार्हता",
+    "manual_review": "मॅन्युअल तपासणी आवश्यक",
+    "disease": "रोग निदान",
+    "confidence": "विश्वासार्हता",
+    "pathogen": "रोगजनक श्रेणी",
+    "treatment": "सुचवलेले उपचार",
+    "advisory": "सिंचन सल्ला"
+  },
+  "irrigation": {
+    "sluice_gate_control": "स्लुइस गेट नियंत्रण",
+    "auto_predictive": "ऑटो-प्रेडिक्टिव मोड",
+    "manual_override": "मॅन्युअल मोड",
+    "duration_label": "गेट कालावधी (सेकंद)",
+    "servo_angle": "सर्व्हो कोन: 90°",
+    "actuate_button": "गेट उघडा",
+    "actuating": "गेट सिग्नल पाठवला जात आहे...",
+    "status_closed": "बंद",
+    "status_opening": "उघडत आहे",
+    "status_open": "उघडे",
+    "status_closing": "बंद होत आहे",
+    "status_failed": "अयशस्वी",
+    "audit_trail": "सिंचन ऑडिट इतिहास",
+    "no_events": "कोणतीही नोंद नाही.",
+    "col_timestamp": "वेळ",
+    "col_source": "स्रोत",
+    "col_angle": "कोन",
+    "col_duration": "कालावधी",
+    "col_status": "स्थिती"
+  },
+  "charts": {
+    "runoff_gradient": "उतार पाण्याचा प्रवाह",
+    "weather_stress": "हवामान आणि ताण संबंध",
+    "upper_moisture": "वरचा ओलावा (%)",
+    "lower_moisture": "खालचा ओलावा (%)",
+    "temp": "तापमान (°C)",
+    "humidity": "आर्द्रता (%)",
+    "stress_score": "तणाव स्कोर",
+    "waiting_data": "माहितीची वाट पाहत आहे..."
+  },
+  "chatbot": {
+    "title": "ऍग्रोबॉट कृषी तज्ञ",
+    "subtitle": "शेत सहाय्यक",
+    "placeholder": "माती किंवा सिंचनाबद्दल विचारा...",
+    "send": "पाठवा",
+    "speech_tooltip": "व्हॉइस इनपुट",
+    "telemetry_attached": "वास्तविक डेटा जोडला",
+    "telemetry_offline": "डेटा ऑफलाइन"
+  },
+  "common": {
+    "backend_offline": "बॅकएंड ऑफलाइन",
+    "connecting": "जोडले जात आहे...",
+    "error": "त्रुटी",
+    "success": "यशस्वी",
+    "retry": "पुन्हा प्रयत्न करा"
+  }
+}

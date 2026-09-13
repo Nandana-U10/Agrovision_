@@ -1,0 +1,102 @@
+{
+  "header": {
+    "title": "ಆಗ್ರೋವಿಷನ್ ಕೋರ್",
+    "node": "ಫೀಲ್ಡ್ ನೋಡ್ 01",
+    "location": "ಟೇರೆಸ್ ಬ್ಲಾಕ್ A",
+    "live_stream": "ಲೈವ್ ಲೊರಾ ಸ್ಟ್ರೀಮ್",
+    "last_packet": "ಕೊನೆಯ ಪ್ಯಾಕೆಟ್: {{count}} ಸೆಕೆಂಡುಗಳ ಹಿಂದೆ",
+    "offline": "ಆಫ್‌ಲೈನ್ / ಪ್ಯಾಕೆಟ್ ಇಲ್ಲ",
+    "simulation": "ಸಿಮ್ಯುಲೇಶನ್ ಮೋಡ್",
+    "rssi": "ಆರ್.ಎಸ್.ಎಸ್.ಐ",
+    "language": "ಭಾಷೆ"
+  },
+  "telemetry": {
+    "upper_moisture": "ಮೇಲಿನ ಮಣ್ಣಿನ ತೇವಾಂಶ",
+    "lower_moisture": "ಕೆಳಗಿನ ಮಣ್ಣಿನ ತೇವಾಂಶ",
+    "temperature": "ತಾಪಮಾನ",
+    "humidity": "ಆರ್ದ್ರತೆ",
+    "plant_stress_score": "ಸಸ್ಯದ ಒತ್ತಡದ ಅಂಕ",
+    "no_data": "ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ",
+    "upper_root_zone": "ಮೇಲಿನ ಬೇರಿನ ವಲಯ (0-15cm)",
+    "lower_root_zone": "ಕೆಳಗಿನ ಬೇರಿನ ವಲಯ (15-30cm)"
+  },
+  "ml": {
+    "drying_forecast": "ಮಣ್ಣಿನ ಒಣಗುವಿಕೆಯ ಮುನ್ಸೂಚನೆ",
+    "depletion_rate": "ಕ್ಷೀಣಿಸುವ ದರ",
+    "time_to_dry": "ಒಣಗಲು ಬೇಕಾಗುವ ಸಮಯ",
+    "until_critical": "ಸಂದಿಗ್ಧ ಮಟ್ಟದವರೆಗೆ",
+    "drought_vulnerability": "ಬರಗಾಲದ ಸಾಧ್ಯತೆ",
+    "prescriptive_advisory": "ಸಲಹೆ",
+    "optimal": "ಉತ್ತಮ",
+    "warning": "ಎಚ್ಚರಿಕೆ",
+    "critical_drought": "ತೀವ್ರ ಬರಗಾಲ"
+  },
+  "vision": {
+    "diagnostic_studio": "ಎಐ ಎಲೆ ರೋಗ ನಿರ್ಣಯ ಸ್ಟುಡಿಯೋ",
+    "camera_mode": "ಕ್ಯಾಮೆರಾ ಮೋಡ್",
+    "file_upload_mode": "ಫೈಲ್ ಅಪ್‌ಲೋಡ್",
+    "take_photo": "ಎಲೆಯ ಫೋಟೋ ತೆಗೆಯಿರಿ",
+    "drag_drop": "ಫೋಟೋ ಇಲ್ಲಿ ಎಳೆಯಿರಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಿ",
+    "select_file": "ಫೈಲ್ ಆಯ್ಕೆ ಮಾಡಿ",
+    "filename": "ಫೈಲ್ ಹೆಸರು",
+    "file_size": "ಫೈಲ್ ಗಾತ್ರ",
+    "dimensions": "ಅಳತೆ",
+    "diagnose_button": "ರೋಗ ನಿರ್ಣಯ ಮಾಡಿ",
+    "analyzing": "ಎಲೆಯನ್ನು ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ...",
+    "high_confidence": "ಹೆಚ್ಚಿನ ನಂಬಿಕೆ",
+    "moderate_confidence": "ಮಧ್ಯಮ ನಂಬಿಕೆ",
+    "manual_review": "ಮ್ಯಾನುಯಲ್ ಪರಿಶೀಲನೆ ಅಗತ್ಯ",
+    "disease": "ರೋಗ ನಿರ್ಣಯ",
+    "confidence": "ನಂಬಿಕೆ ಮಟ್ಟ",
+    "pathogen": "ರೋಗಕಾರಕ ವರ್ಗ",
+    "treatment": "ಶಿಫಾರಸು ಮಾಡಿದ ಚಿಕಿತ್ಸೆ",
+    "advisory": "ನೀರಾವರಿ ಸಲಹೆ"
+  },
+  "irrigation": {
+    "sluice_gate_control": "ಸ್ಲೂಯಿಸ್ ಗೇಟ್ ನಿಯಂತ್ರಣ",
+    "auto_predictive": "ಆಟೋ-ಪ್ರಿಡಿಕ್ಟಿವ್ ಮೋಡ್",
+    "manual_override": "ಮ್ಯಾನುಯಲ್ ಮೋಡ್",
+    "duration_label": "ಗೇಟ್ ಸಮಯ (ಸೆಕೆಂಡುಗಳು)",
+    "servo_angle": "ಸರ್ವೋ ಕೋನ: 90°",
+    "actuate_button": "ಗೇಟ್ ತೆರೆಯಿರಿ",
+    "actuating": "ಗೇಟ್ ಸಂಕೇತ ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ...",
+    "status_closed": "ಮುಚ್ಚಿದೆ",
+    "status_opening": "ತೆರೆಯುತ್ತಿದೆ",
+    "status_open": "ತೆರೆದಿದೆ",
+    "status_closing": "ಮುಚ್ಚುತ್ತಿದೆ",
+    "status_failed": "ವಿಫಲವಾಗಿದೆ",
+    "audit_trail": "ನೀರಾವರಿ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ",
+    "no_events": "ಯಾವುದೇ ದಾಖಲೆಗಳಿಲ್ಲ.",
+    "col_timestamp": "ಸಮಯ",
+    "col_source": "ಮೂಲ",
+    "col_angle": "ಕೋನ",
+    "col_duration": "ಸಮಯ",
+    "col_status": "ಸ್ಥಿತಿ"
+  },
+  "charts": {
+    "runoff_gradient": "ಇಳಿಜಾರಿನ ನೀರು ಹರಿವು",
+    "weather_stress": "ಹವಾಮಾನ ಮತ್ತು ಒತ್ತಡದ ಸಂಬಂಧ",
+    "upper_moisture": "ಮೇಲಿನ ತೇವಾಂಶ (%)",
+    "lower_moisture": "ಕೆಳಗಿನ ತೇವಾಂಶ (%)",
+    "temp": "ತಾಪಮಾನ (°C)",
+    "humidity": "ಆರ್ದ್ರತೆ (%)",
+    "stress_score": "ಒತ್ತಡದ ಅಂಕ",
+    "waiting_data": "ಮಾಹಿತಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ..."
+  },
+  "chatbot": {
+    "title": "ಆಗ್ರೋಬಾಟ್ ಕೃಷಿ ತಜ್ಞ",
+    "subtitle": "ಜಮೀನಿನ ಸಹಾಯಕ",
+    "placeholder": "ಮಣ್ಣು ಅಥವಾ ನೀರಾವರಿ ಬಗ್ಗೆ ಕೇಳಿ...",
+    "send": "ಕಳುಹಿಸಿ",
+    "speech_tooltip": "ಧ್ವನಿ ಇನ್‌ಪುಟ್",
+    "telemetry_attached": "ನೈಜ ಡೇಟಾ ಲಗತ್ತಿಸಲಾಗಿದೆ",
+    "telemetry_offline": "ಡೇಟಾ ಆಫ್‌ಲೈನ್"
+  },
+  "common": {
+    "backend_offline": "ಬ್ಯಾಕೆಂಡ್ ಆಫ್‌ಲೈನ್",
+    "connecting": "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...",
+    "error": "ದೋಷ",
+    "success": "ಯಶಸ್ವಿ",
+    "retry": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
+  }
+}

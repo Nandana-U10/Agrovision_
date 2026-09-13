@@ -1,0 +1,23 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { Dashboard } from './pages/Dashboard';
+import './i18n';
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      retry: 1,
+      refetchOnWindowFocus: false,
+      staleTime: 2000,
+    },
+  },
+});
+
+export function App() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <Dashboard />
+    </QueryClientProvider>
+  );
+}
+
+export default App;

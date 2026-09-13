@@ -1,0 +1,102 @@
+{
+  "header": {
+    "title": "एग्रोविज़न कोर",
+    "node": "फ़ील्ड नोड 01",
+    "location": "टेरेस ब्लॉक A",
+    "live_stream": "लाइव लोरा स्ट्रीम",
+    "last_packet": "अंतिम पैकेट: {{count}} सेकंड पहले",
+    "offline": "ऑफ़लाइन / कोई पैकेट नहीं",
+    "simulation": "सिमुलेशन मोड",
+    "rssi": "आरएसएसआई",
+    "language": "भाषा"
+  },
+  "telemetry": {
+    "upper_moisture": "ऊपरी टेरेस नमी",
+    "lower_moisture": "निचली टेरेस नमी",
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "plant_stress_score": "पौधे का तनाव स्कोर",
+    "no_data": "कोई डेटा नहीं",
+    "upper_root_zone": "ऊपरी जड़ क्षेत्र (0-15 सेमी)",
+    "lower_root_zone": "निचली जड़ क्षेत्र (15-30 सेमी)"
+  },
+  "ml": {
+    "drying_forecast": "मृदा सुखाने का पूर्वानुमान",
+    "depletion_rate": "कमी की दर",
+    "time_to_dry": "सूखने का समय",
+    "until_critical": "क्रिटिकल नमी स्तर तक",
+    "drought_vulnerability": "सूखा भेद्यता",
+    "prescriptive_advisory": "सलाहत्मक सुझाव",
+    "optimal": "अनुकूल",
+    "warning": "चेतावनी",
+    "critical_drought": "गंभीर सूखा"
+  },
+  "vision": {
+    "diagnostic_studio": "एआई पत्ती निदान स्टूडियो",
+    "camera_mode": "कैमरा मोड",
+    "file_upload_mode": "फ़ाइल अपलोड",
+    "take_photo": "पत्ती की तस्वीर लें",
+    "drag_drop": "तस्वीर यहाँ खींचें या चुनें",
+    "select_file": "फ़ाइल चुनें",
+    "filename": "फ़ाइल का नाम",
+    "file_size": "फ़ाइल का आकार",
+    "dimensions": "आयाम",
+    "diagnose_button": "स्वास्थ्य निदान करें",
+    "analyzing": "पत्ती का विश्लेषण हो रहा है...",
+    "high_confidence": "उच्च विश्वास",
+    "moderate_confidence": "मध्यम विश्वास",
+    "manual_review": "मैनुअल समीक्षा आवश्यक",
+    "disease": "निदान",
+    "confidence": "विश्वास",
+    "pathogen": "रोगजनक श्रेणी",
+    "treatment": "अनुशंसित उपचार",
+    "advisory": "सिंचाई सलाह"
+  },
+  "irrigation": {
+    "sluice_gate_control": "स्लूइस गेट नियंत्रण",
+    "auto_predictive": "ऑटो-प्रेडिक्टिव मोड",
+    "manual_override": "मैनुअल ओवरराइड",
+    "duration_label": "गेट अवधि (सेकंड)",
+    "servo_angle": "सर्वो कोण: 90°",
+    "actuate_button": "गेट खोलें",
+    "actuating": "गेट सिग्नल भेजा जा रहा है...",
+    "status_closed": "बंद",
+    "status_opening": "खुल रहा है",
+    "status_open": "खुला",
+    "status_closing": "बंद हो रहा है",
+    "status_failed": "विफल",
+    "audit_trail": "सिंचाई ऑडिट ट्रेल",
+    "no_events": "कोई रिकॉर्ड दर्ज नहीं है।",
+    "col_timestamp": "समय मोहर",
+    "col_source": "ट्रिगर स्रोत",
+    "col_angle": "कोण",
+    "col_duration": "अवधि",
+    "col_status": "स्थिति"
+  },
+  "charts": {
+    "runoff_gradient": "ढलान अपवाह ढाल",
+    "weather_stress": "मौसम और तनाव सहसंबंध",
+    "upper_moisture": "ऊपरी नमी (%)",
+    "lower_moisture": "निचली नमी (%)",
+    "temp": "तापमान (°C)",
+    "humidity": "आर्द्रता (%)",
+    "stress_score": "तनाव स्कोर",
+    "waiting_data": "लाइव डेटा की प्रतीक्षा की जा रही है..."
+  },
+  "chatbot": {
+    "title": "एग्रोबॉट कृषि विशेषज्ञ",
+    "subtitle": "संदर्भ-जागरूक खेत सहायक",
+    "placeholder": "मिट्टी या सिंचाई के बारे में पूछें...",
+    "send": "भेजें",
+    "speech_tooltip": "आवाज इनपुट",
+    "telemetry_attached": "वास्तविक टेलीमेट्री संलग्न",
+    "telemetry_offline": "टेलीमेट्री ऑफ़लाइन"
+  },
+  "common": {
+    "backend_offline": "बैकएंड ऑफ़लाइन",
+    "connecting": "कनेक्ट हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "retry": "पुनः प्रयास करें"
+  }
+}

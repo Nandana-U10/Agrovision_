@@ -1,0 +1,102 @@
+{
+  "header": {
+    "title": "এগ্ৰ'ভিজন ক'ৰ",
+    "node": "ফিল্ড নোড ০১",
+    "location": "টেৰেচ ব্লক A",
+    "live_stream": "লাইভ ল'ৰা ষ্ট্ৰীম",
+    "last_packet": "শেষ পেকেট: {{count}} ছেকেণ্ড পূৰ্বে",
+    "offline": "অফলাইন / কোনো পেকেট নাই",
+    "simulation": "চিমুলেচন মোড",
+    "rssi": "আৰ-এছ-এছ-আই",
+    "language": "ভাষা"
+  },
+  "telemetry": {
+    "upper_moisture": "উপৰিভাগৰ আদ্ৰতা",
+    "lower_moisture": "নিম্নভাগৰ আদ্ৰতা",
+    "temperature": "উষ্ণতা",
+    "humidity": "আদ্ৰতা",
+    "plant_stress_score": "উদ্ভিদৰ মানসিক চাপ স্ক'ৰ",
+    "no_data": "কোনো তথ্য নাই",
+    "upper_root_zone": "উপৰিভাগৰ শিপা অঞ্চল (0-15cm)",
+    "lower_root_zone": "নিম্নভাগৰ শিপা অঞ্চল (15-30cm)"
+  },
+  "ml": {
+    "drying_forecast": "মাটি শুকোৱাৰ পূৰ্বানুমান",
+    "depletion_rate": "হ্ৰাসৰ হাৰ",
+    "time_to_dry": "শুকাবলৈ বাকী সময়",
+    "until_critical": "সংকটজনক সীমালৈকে",
+    "drought_vulnerability": "খৰাং অৱস্থা",
+    "prescriptive_advisory": "পৰামৰ্শ",
+    "optimal": "উপযুক্ত",
+    "warning": "সঁকীয়নি",
+    "critical_drought": "গম্ভীৰ খৰাং"
+  },
+  "vision": {
+    "diagnostic_studio": "এআই পাতৰ ৰোগ নিৰূপণ ষ্টুডিঅ'",
+    "camera_mode": "কেমেৰা মোড",
+    "file_upload_mode": "ফাইল আপলোড",
+    "take_photo": "পাতৰ ফটো তোলক",
+    "drag_drop": "ফটো ইয়াত আনক বা বাছনি কৰক",
+    "select_file": "ফাইল বাছনি কৰক",
+    "filename": "ফাইলৰ নাম",
+    "file_size": "ফাইলৰ আকাৰ",
+    "dimensions": "পৰিসীমা",
+    "diagnose_button": "ৰোগ নিৰূপণ কৰক",
+    "analyzing": "পাতৰ ৰোগ বিশ্লেষণ কৰা হৈছে...",
+    "high_confidence": "উচ্চ বিশ্বাসযোগ্যতা",
+    "moderate_confidence": "মধ্যম বিশ্বাসযোগ্যতা",
+    "manual_review": "হাতেৰে পৰীক্ষা প্ৰয়োজন",
+    "disease": "ৰোগ নিৰূপণ",
+    "confidence": "বিশ্বাসযোগ্যতা",
+    "pathogen": "ৰোগ সৃষ্টিকাৰী শ্ৰেণী",
+    "treatment": "প্ৰস্তাবিত চিকিৎসা",
+    "advisory": "জলসিঞ্চন পৰামৰ্শ"
+  },
+  "irrigation": {
+    "sluice_gate_control": "শ্লুইচ গেট নিয়ন্ত্ৰণ",
+    "auto_predictive": "স্বয়ংক্ৰিয় মোড",
+    "manual_override": "মেনুৱেল মোড",
+    "duration_label": "গেটৰ সময়সীমা (ছেকেণ্ড)",
+    "servo_angle": "চাৰ্ভ' কোণ: 90°",
+    "actuate_button": "গেট খোলক",
+    "actuating": "গেট সংকেত প্ৰেৰণ কৰা হৈছে...",
+    "status_closed": "বন্ধ",
+    "status_opening": "খুলি আছে",
+    "status_open": "খোলা",
+    "status_closing": "বন্ধ হৈ আছে",
+    "status_failed": "ব্যৰ্থ",
+    "audit_trail": "জলসিঞ্চন অডিট তালিকা",
+    "no_events": "কোনো ঘটনা ৰেকৰ্ড কৰা হোৱা নাই।",
+    "col_timestamp": "সময়",
+    "col_source": "উৎস",
+    "col_angle": "কোণ",
+    "col_duration": "সময়সীমা",
+    "col_status": "অৱস্থা"
+  },
+  "charts": {
+    "runoff_gradient": "ঢালৰ পানীৰ বোৱতী মাত্ৰা",
+    "weather_stress": "বতৰ আৰু উদ্ভিদৰ চাপ",
+    "upper_moisture": "উপৰিভাগৰ আদ্ৰতা (%)",
+    "lower_moisture": "নিম্নভাগৰ আদ্ৰতা (%)",
+    "temp": "উষ্ণতা (°C)",
+    "humidity": "আদ্ৰতা (%)",
+    "stress_score": "চাপ স্ক'ৰ",
+    "waiting_data": "তথ্যৰ বাবে অপেক্ষা কৰা হৈছে..."
+  },
+  "chatbot": {
+    "title": "এগ্ৰ'বট কৃষি বিশেষজ্ঞ",
+    "subtitle": "পথাৰৰ সহায়ক",
+    "placeholder": "মাটি বা জলসিঞ্চনৰ বিষয়ে সোধক...",
+    "send": "প্ৰেৰণ কৰক",
+    "speech_tooltip": "ভয়েছ ইনপুট",
+    "telemetry_attached": "প্ৰকৃত তথ্য সংলগ্ন",
+    "telemetry_offline": "তথ্য অফলাইন"
+  },
+  "common": {
+    "backend_offline": "বেকএণ্ড অফলাইন",
+    "connecting": "সংযোগ কৰা হৈছে...",
+    "error": "ত্রুটি",
+    "success": "সফল",
+    "retry": "পুনৰ চেষ্টা কৰক"
+  }
+}
